@@ -11,30 +11,31 @@ html,body{
     font-weight: 900;
     color: aliceblue;
     display: flex;
-    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items:center;
-    height: 15vh;
+    height: 100x;
     background-color: black;
     border-bottom: 2px solid red;
 }
 .nav a{
     color: aliceblue;
-    margin-left: 2%;
+    /* margin-left: 2%; */
     text-decoration: none;
 }
 .image-container{
-    width: 10vh;
-    margin-left: 5%;
+    width: 50px;
+    /* margin-left: 5%; */
 }
 .profile-pic{
-    margin-left: 2%;
+    /* margin-left: 2%; */
     padding: 2px;
     border-radius: 50%;
     background-color: red;
     max-width: 100%;
 }
 #name{
-    margin-left: 2%;
+    margin-left: 2px;
     text-transform:uppercase ;
     letter-spacing: 1.5px;
     -webkit-text-stroke: 0.1px red;
@@ -42,8 +43,10 @@ html,body{
 .info{
     font-weight: 500;
     display: flex;
-    justify-content: center;
-    margin: 10%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* margin: 10%; */
     padding: 25px;
     text-transform: capitalize;
     text-align: center;
@@ -101,7 +104,7 @@ main{
     height: 7vh;
 }
 .main-pic-container{
-    width: 50vh;
+    width: 45vh;
     border-radius: 50%;
     /* background-color: blue; */
     border: 2.5px solid black;
@@ -109,8 +112,7 @@ main{
 }
 .main-pic-container img{
     max-width: 100%;
-    position: relative;
-    top: -50px;
+    /* position: relative; */
     
 }
 footer{
