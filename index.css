@@ -75,6 +75,7 @@ main{
     justify-content:center;
     align-items: center;
     padding-bottom: 20px;
+    margin-bottom: 10px;
     /* padding: 10px 0px; */
 }
 .project-info button{
@@ -136,4 +137,17 @@ footer{
 .contact a{
     text-decoration: none;
     color: black;
+}
+#mobileApp{
+    padding-left:20px ;
+}
+div > ol>li{
+    margin-bottom: 8px;
+}
+div>ol>li>ul>li{
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+button:hover{
+    background-color: rgb(212, 138, 27);
 }
